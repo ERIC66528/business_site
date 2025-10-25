@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment | Rictei Digital Solutions</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Rictei Digital Solutions</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="payment.html" class="active">Payment</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle">🌓</button>
+  </header>
+
+  <section class="content">
+    <h1>Make a Payment</h1>
+    <form action="php/stk_push.php" method="POST" class="payment-form">
+      <input type="number" name="amount" placeholder="Amount (KES)" required>
+      <input type="tel" name="phone" placeholder="Phone Number (2547...)" required>
+      <button type="submit">Pay via M-Pesa</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rictei Digital Solutions. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
