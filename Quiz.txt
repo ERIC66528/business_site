@@ -1,0 +1,103 @@
+
+
+1. Judge:
+
+What approach did you use to identify and analyze the business problem before developing your solution?
+
+Your Answer:
+I began by performing a needs analysis to understand the core problem from a business perspective. I identified user pain points, process inefficiencies, and the system goals. I then designed a requirement specification document outlining functional and non-functional requirements. This guided my system design to ensure the solution directly supports business objectives such as efficiency, scalability, and automation.
+
+
+---
+
+2. Judge:
+
+Why did you choose to use PHP with XAMPP/WAMP/LAMP for backend development?
+
+Your Answer:
+I chose PHP because it is lightweight, open-source, and integrates seamlessly with MySQL and Apache in the XAMPP environment. It supports quick API integration—especially with the Daraja API for MPESA payments—and provides strong community support. XAMPP allows me to test the project locally with flexibility and control before deploying to a live server.
+
+
+---
+
+3. Judge:
+
+How did you ensure security in your software, especially when dealing with APIs or user data?
+
+Your Answer:
+I implemented input validation, HTTPS encryption for secure data transmission, and password hashing using PHP’s password_hash() function. For API calls, I used secure access tokens and ensured all sensitive credentials were stored in environment variables, not hard-coded in the script. I also performed error handling to prevent data leakage through error messages.
+
+
+---
+
+4. Judge:
+
+Explain how the MPESA Daraja API (or PayPal Sandbox) was integrated into your system.
+
+Your Answer:
+I registered an app on the Daraja developer portal to obtain the Consumer Key and Secret. Then, I generated an OAuth access token for authentication and used cURL in PHP to make API requests. I implemented both the STK Push and transaction callback URLs to process payments and confirm results automatically. This made the payment process smooth and traceable for business transactions.
+
+
+---
+
+5. Judge:
+
+What software development model did you follow and why?
+
+Your Answer:
+I followed an Agile development approach, breaking the project into small, manageable sprints. This allowed continuous testing, user feedback, and iterative improvement. The model suits competition timelines because it promotes flexibility and adaptability when requirements evolve or new challenges emerge.
+
+
+---
+
+6. Judge:
+
+How did you test and debug your system to ensure reliability?
+
+Your Answer:
+I used both manual and automated testing methods. I conducted unit tests for core functions such as login authentication, database queries, and payment responses. Additionally, I used browser developer tools and PHP error logs for debugging. I also tested on different browsers and devices to ensure responsiveness and compatibility.
+
+
+---
+
+7. Judge:
+
+How does your solution improve business operations compared to traditional methods?
+
+Your Answer:
+My solution digitizes manual workflows—automating transactions, data storage, and reporting. It reduces human errors, increases processing speed, and provides real-time business insights. For example, integrating digital payments via the Daraja API reduces cash handling risks and provides instant transaction verification.
+
+
+---
+
+8. Judge:
+
+How did you structure your database, and what measures did you take to ensure data integrity?
+
+Your Answer:
+I designed a normalized relational database in MySQL to avoid data redundancy. I used primary and foreign keys to maintain relationships and enforced referential integrity through constraints. Additionally, I included backup and recovery strategies using export scripts and maintained ACID-compliant transactions for consistency.
+
+
+---
+
+9. Judge:
+
+What would you improve or add if you had more time or resources?
+
+Your Answer:
+I would enhance the system by implementing role-based access control, advanced analytics dashboards using chart libraries, and cloud deployment for scalability. I would also integrate SMS and email notifications for real-time alerts and extend the API layer to support mobile app integration.
+
+
+---
+
+10. Judge:
+
+As a software developer, how do you ensure professionalism and ethical standards in your work?
+
+Your Answer:
+I maintain professionalism through clean, well-documented code, adherence to software development standards, and respect for intellectual property. I ensure data privacy, seek user consent where necessary, and follow Kenya’s ICT ethics guidelines. I also collaborate transparently, meet deadlines, and continuously learn to stay updated with emerging technologies.
+
+
+---
+
+Would you like me to also create a short professional script (around 1–2 minutes) that you can use when introducing yourself and your project to the judges? It will help you make a strong first impression during the presentation.
